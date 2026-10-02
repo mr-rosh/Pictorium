@@ -34,14 +34,14 @@ const SUB_GENRES: SubGenreRule[] = [
   {
     key: "heist",
     keywords: ["heist", "bank robbery", "caper", "robbery", "master thief"],
-    labels: { it: "Film di Rapina", en: "Heist", fr: "Film de braquage", de: "Heist", es: "Robos", he: "סרט שוד", pl: "Film z napadu", ar: "أفلام سرقة", tr: "Soygun Filmi", nl: "Overvalfilm", sv: "Rånfilm", ro: "Film de jaf", cs: "Loupežný film", pt: "Filme de assalto", ja: "強盗映画", ko: "강도 영화" },
+    labels: { it: "Film di Rapina", en: "Heist", fr: "Film de braquage", de: "Heist", es: "Robos", he: "סרט שוד", pl: "Film z napadu", ar: "أفلام سرقة", tr: "Soygun Filmi", nl: "Overvalfilm", sv: "Rånfilm", ro: "Tâlhărie", cs: "Loupežný film", pt: "Filme de assalto", ja: "強盗映画", ko: "강도 영화" },
   },
   {
     key: "zombie",
     // NOTE: "infected" removed — medical/virus outbreak keywords would falsely
     // trigger the zombie badge on non-zombie contagion thrillers.
     keywords: ["zombie", "zombies", "undead", "apocalypse zombie"],
-    labels: { it: "Film di Zombie", en: "Zombie", fr: "Film de zombies", de: "Zombie", es: "Zombis", he: "זומבים", pl: "Film zombie", ar: "زومبي", tr: "Zombi", nl: "Zombie", sv: "Zombie", ro: "Film de zombie", cs: "Zombie", pt: "Filme de zumbis", ja: "ゾンビ映画", ko: "좀비 영화" },
+    labels: { it: "Film di Zombie", en: "Zombie", fr: "Film de zombies", de: "Zombie", es: "Zombis", he: "זומבים", pl: "Film zombie", ar: "زومبي", tr: "Zombi", nl: "Zombie", sv: "Zombie", ro: "Strigoi", cs: "Zombie", pt: "Filme de zumbis", ja: "ゾンビ映画", ko: "좀비 영화" },
   },
   {
     key: "vampire",
