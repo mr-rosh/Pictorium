@@ -46,8 +46,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            eful97/pictorium
-            eful97/posterium
+            mrrosh/pictorium
+            mrrosh/posterium
             ghcr.io/${{ github.repository }}
           tags: |
             type=raw,value=latest,enable=${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' }}
